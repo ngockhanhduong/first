@@ -1,0 +1,27 @@
+Sub MyFirstMacro()
+
+'this is my first Macros'
+MsgBox ("Welcome to Excel!")
+
+End Sub
+
+Sub MySecondMacro()
+
+'runs MyFirstMacro'
+Call MyFirstMacro
+
+End Sub
+
+Option Explicit 'This means all variables must be declared (using Dim)
+Sub Vars()
+
+Dim myFirstVariable As Integer, x As Integer 'Variables can be declared on the same line'
+Dim y As Integer
+Const constant = 13 'Declare a constant variable'
+'Variable types (data types): 
+
+myFirstVariable = 8
+x = 80
+y = 6000
+
+End Sub
